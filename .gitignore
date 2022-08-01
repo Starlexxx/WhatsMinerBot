@@ -1,0 +1,28 @@
+# OS generated files #
+.DS_Store
+.rvm*
+.rbenv*
+.idea*
+.vscode*
+*.sublime-project
+*.sublime-workspace
+.sass-cache
+Thumbs.db
+ehthumbs.db
+*.DS_Store
+.docker-sync*
+*.swp
+*~
+.ignore
+
+# Ruby specifics #
+##################
+.bundle
+.ruby-version
+.code-workspace
+
+# Temporary files #
+tmp/*
+
+# CSV #
+*.csv

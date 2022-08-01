@@ -4,6 +4,8 @@ require 'ccsv'
 PARAMS = %i[ip status up_time elapsed ths_rt ths_avg power freq_avg volt].freeze
 
 module Parser
+  extend self
+
   def workers_params
     params = []
     Ccsv.foreach(find_file[0], ',') do |line|
